@@ -78,28 +78,21 @@ crypto.js, async.js, base64.js, os, fs
 # Installation
 
 For installation purposes, it needs
-  * Atom client.
   * Internet Access.
-  * Windows, MAC OS or Linux.
+  * Windows, MAC OS or Linux computer.
   * A Brain!
- 
-## Run
-For deploying the server using default port (8080):
-```
-java -jar apkr.jar
-```
 
 # Contribution
 
 To support this project you can:
 
-  - Post thoughts about new features/optimizations that important to you
-  - Submit bug using one of following ways:
+  - Post thoughts about new features/optimizations that are important to you
+  - Submit bugs using one of following ways:
     * Error stacktrace string and log files.
     * Error log and link to public available apk file.
   
 And any other comments will be very appreciate.
 
----------------------------------------
+#License
 
-*Copyright 2016 by zerjioAng*
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
