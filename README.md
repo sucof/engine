@@ -1,6 +1,6 @@
 # apkr
 
-![alt image](https://raw.githubusercontent.com/zerjioang/apkr/master/readme/github-frontal.png)
+![alt image](https://github.com/zerjioang/apkr/blob/ui/readme/github-frontal.png)
 
 > **apkr** is the codename for a new malware analysis tool developed by myself for my final degree's project.
 
