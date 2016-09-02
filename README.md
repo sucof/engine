@@ -14,7 +14,7 @@ This shows a very dangerous combination of facts. Getting malware onto a victimâ
 
 ## Brief description
 
-https://github.com/zerjioang/apkr/blob/master/readme/apkr-slides.pdf
+https://github.com/zerjioang/apkr/blob/ui/readme/apkr-slides.pdf
 
 ## Third party libraries involved
 
