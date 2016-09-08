@@ -19,9 +19,7 @@ var os = require('os');
 var CryptoJS = require("crypto-js");
 var base64 = require('base-64');
 
-var server = "127.0.0.1";
-var port = 8080;
-var address = server + ":" + port;
+var serverList = [];
 
 var menuCreated = false;
 
@@ -30,7 +28,20 @@ var samplehash = "";
 ngui.App.clearCache();
 
 function getServerAddress(argument) {
-    return "http://" + address + "/api/v1/" + argument;
+    if(serverList==null && serverList.length == 0){
+        //try to get server list from repo
+        $.ajax({
+            url: 'https://github.com/zerjioang/apkr/raw/master/server.json',
+            success: function (result) {
+                if (result){
+                    serverList = result.datacenters;
+                    console.log("Datacencers detecteds: "+serverList.length);
+                }
+            },
+            async: false
+        });
+    }
+    return "http://" + serverList[0] + "/api/v1/" + argument;
 }
 
 function checkRequirements() {
